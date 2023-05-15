@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com//ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>CHIKI GOMIS</title>
+</head>
+<body>
+    <div class="head"> 
+        <div class="logo"> 
+            <figure class="map"><img src="img/logo.jpg" width="30%">
+        </div>
+     
+    </div>
+    <header class="content header"> 
+        <h2 class="title">CHIKI GOMIS</h2>
+        <p>
+           Esperando te encuentres de maravilla, sí estas buscando un empleo, llegaste al lugar adecuado ¡ESTAMOS CONTRATANDO!.
+           Sube tus archivos a continuación.
+           Contamos con vacantes en cada una de nuestras sucursales. Ven y unete a nuestro equipo,
+           horario flexible.
+           
+            ¡VEN Y CONOCENOS!
+        </p>
+        <div class="btn-home"> 
+            <button class="btn">Propuestas</button>
+            <button class="btn">Curriculum Vitae</button>
+            <button class="btn">Contrato</button>
+        </div>
+    </header>
+    <section class="content sau">
+        <h2 class="title">¡¡Nuestro Producto!!</h2>
+        <p>
+            Para una sonrisa sin caries.
+
+            Nuestro producto es altamente recomendado, ya que es bajo en calorias, bajo en cuestion de azucares.
+            Es la mejor opción al momento de comprar gomitas, ya que estan en la tiendita de la esquina. 
+        </p>
+       
+    </section>
+    <section class="content contact">
+        <figure class="map"><img src="img/producto.jpg" width="50%">
+        </figure>
+    </section>
+    <form action="insertar.php" class="form-register" method="post" enctype="multipart/form-data">
+        <h1 class="form__title">Introduce tus Datos.</h1>
+        <div class="container--flex">
+            <label for="" class="fomr__label">Tipo </label>
+            <input type="text" class="form__input" name="Tipo" required>
+        </div>
+        <div class="container--flex">
+            <label for="" class="fomr__label">Nombre</label>
+            <input type="text" class="form__input" name="Nombre" required>
+        </div>
+        <div class="container--flex">
+            <label for="" class="fomr__label">Fecha</label>
+            <input type="date" class="form__input" name="Fecha" required>
+        </div>
+        <input type="file" name="archivo" class="form__file" required>
+        <input type="submit" class="form__submit">
+    </form>
+</body>
+</html>
